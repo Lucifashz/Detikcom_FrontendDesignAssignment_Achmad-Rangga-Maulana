@@ -1,0 +1,398 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.bg-navbar {
+  background: rgba(0, 124, 189, 1);
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.mx-width-navbar {
+  max-width: 1200px;
+}
+
+.nav-brand {
+  height: 50px;
+}
+
+.nav-link {
+  margin-right: 25px;
+}
+
+.btn-white {
+  padding: 10px 30px;
+  background: white;
+  border-radius: 100px;
+  text-decoration: none;
+  color: rgba(0, 124, 189, 1);
+}
+
+.nav-brand {
+  height: 50px;
+}
+
+.background {
+  position: absolute;
+  z-index: -1;
+  top: -12px;
+}
+
+.background-white {
+  width: 100%;
+  height: 1556px;
+}
+
+#register {
+  margin-top: 66px;
+  width: 100%;
+  height: 1859.66px;
+  max-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 15px;
+  background-size: auto;
+  background: url(/img/Background\ Header\ Title\ -\ Register.png) top no-repeat,
+    rgba(244, 251, 255, 1);
+}
+
+.text-register {
+  margin-bottom: 30px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.card-register {
+  width: 640px;
+  max-width: 640px;
+  height: 100%;
+  padding: 30px 20px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 1);
+  display: flex;
+  flex-direction: column;
+  grid-gap: 20px;
+  color: rgba(7, 20, 36, 1);
+}
+
+.card-register input {
+  border: none;
+  background: rgba(248, 248, 248, 1);
+  padding: 18px 15px;
+  margin-bottom: 20px;
+}
+
+.color-red {
+  color: red;
+}
+
+.f-14 {
+  font-size: 14px;
+  color: rgba(130, 130, 130, 1);
+}
+
+.desc-1 {
+  color: rgba(130, 130, 130, 1);
+  font-size: 13px;
+}
+
+#text-area-2 {
+  border: none;
+  background: rgba(248, 248, 248, 1);
+  height: 120px;
+  margin-bottom: 20px;
+  padding: 15px;
+}
+
+.file-logo {
+  margin-bottom: 20px;
+}
+
+.upload-file-logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+  background: rgba(248, 248, 248, 1);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.button-file {
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-upload {
+  border-radius: 50%;
+  background: rgba(27, 133, 232, 1);
+  color: #FFFFFF;
+  border: none;
+  width: 38px;
+  height: 38px;
+  flex-grow: 1;
+  font-size: 20px;
+}
+
+.file-profile {
+  margin-bottom: 20px;
+}
+
+.file-name {
+  padding: 15px;
+  background: rgba(248, 248, 248, 1);
+  width: 75%;
+  position: relative;
+}
+
+.file-profile button {
+  width: 25%;
+  border: none;
+  border-radius: 8px;
+  color: #FFFFFF;
+  background: rgba(0, 124, 189, 1);
+}
+
+#submit {
+  display: inline-block;
+  width: 250px;
+  margin: auto;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-weight: 700;
+  background: rgba(0, 124, 189, 1);
+}
+
+#footer {
+  background: rgba(0, 124, 189, 1);
+  padding: 30px 49px;
+  color: rgba(255, 255, 255, 1);
+  position: relative;
+}
+
+.footer-logo {
+  height: 66px;
+}
+
+.moto-social-media {
+  margin: 30px 0 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.moto-social-media p {
+  width: 754px;
+}
+
+.social-media {
+  filter: brightness(0) invert(1);
+  display: flex;
+  flex-direction: row;
+  grid-gap: 0 30px;
+}
+
+.hr-logo {
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+
+
+@media all and (min-width: 1200px) and (max-width: 1400px) {
+  #footer p {
+    font-size: 15px;
+  }
+}
+
+/* 1280-1024   - desktop (default grid) */
+@media all and (min-width: 1024px) and (max-width: 1200px) {
+  .mx-width-navbar {
+    max-width: 1000px;
+  }
+
+  #register {
+    max-width: 1500px;
+  }
+
+  #footer p {
+    font-size: 14px;
+  }
+}
+
+/* 1024-768    - tablet landscape */
+@media all and (min-width: 991px) and (max-width: 1024px) {
+  .card-register {
+    max-width: 1500px;
+  }
+}
+
+/* 1024-768    - tablet landscape */
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+  }
+
+  .navbar-toggler {
+    border-color: #FFFFFF;
+  }
+
+  .navbar-nav {
+    position: absolute;
+    top: 66px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    background: rgba(0, 124, 189, 1);
+    transition: .5s;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar-nav.active {
+    border-top: 1px solid #FFFFFF;
+    height: 450px;
+  }
+
+  .navbar-nav .nav-link {
+    display: block;
+    width: fit-content;
+    margin: 30px auto 0 auto;
+    text-align: center;
+    transition: .7s;
+    opacity: 1;
+  }
+
+  .card-register {
+    max-width: 1200px;
+  }
+
+  .btn-white {
+    margin: 70px auto;
+    width: fit-content;
+  }
+
+  #footer p {
+    font-size: 14px;
+  }
+}
+
+/* 768-480     - tablet  */
+@media all and (min-width: 480px) and (max-width: 768px) {
+  .navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+  }
+
+  .navbar-toggler {
+    border-color: #FFFFFF;
+  }
+
+  .navbar-nav {
+    position: absolute;
+    top: 66px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    background: rgba(0, 124, 189, 1);
+    transition: .5s;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar-nav.active {
+    border-top: 1px solid #FFFFFF;
+    height: 450px;
+  }
+
+  .navbar-nav .nav-link {
+    display: block;
+    width: fit-content;
+    margin: 30px auto 0 auto;
+    text-align: center;
+    transition: .7s;
+    opacity: 1;
+  }
+
+  .btn-white {
+    margin: 70px auto;
+    width: fit-content;
+  }
+
+  .card-register {
+    max-width: 400px;
+  }
+
+  #footer p {
+    font-size: 14px;
+  }
+}
+
+/* 480-less    - phone landscape & smaller */
+@media all and (max-width: 480px) {
+  .navbar-toggler-icon {
+    filter: brightness(0) invert(1);
+  }
+
+  .navbar-toggler {
+    border-color: #FFFFFF;
+  }
+
+  .navbar-nav {
+    position: absolute;
+    top: 66px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 0;
+    background: rgba(0, 124, 189, 1);
+    transition: .5s;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+  }
+
+  .navbar-nav.active {
+    border-top: 1px solid #FFFFFF;
+    height: 450px;
+  }
+
+  .navbar-nav .nav-link {
+    display: block;
+    width: fit-content;
+    margin: 30px auto 0 auto;
+    text-align: center;
+    transition: .7s;
+    opacity: 1;
+  }
+
+  .btn-white {
+    margin: 70px auto;
+    width: fit-content;
+  }
+
+  .card-register {
+    max-width: 200px;
+  }
+
+  .text-update {
+    font-size: 12px;
+  }
+}
